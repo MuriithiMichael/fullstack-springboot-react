@@ -10,7 +10,7 @@ class FullstackSpringbootReactApplicationTests {
 	@Test
 	void contextLoads() {
 		//Make all tests fail
-		Assertions.fail("Oops test failed");
+//		Assertions.fail("Oops test failed");
 	}
 
 }
