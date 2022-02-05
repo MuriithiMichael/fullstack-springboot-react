@@ -238,7 +238,7 @@ function App() {
         />
         <Divider>
           <a
-              rel="noreferrer"
+              rel="noopener noreferrer"
               target="_blank"
               href="https://amigoscode.com/courses/full-stack-spring-boot-react/">
             Tenabo Systems©2021 Created by Tenabo Treq Ltd
