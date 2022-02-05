@@ -12,7 +12,7 @@ import {
   Badge,
   Tag,
   Popconfirm,
-  Radio, Image
+  Radio, Image, Divider
 } from 'antd';
 import {
   DesktopOutlined,
@@ -234,9 +234,16 @@ function App() {
       <Footer style={{ textAlign: 'center' }}>
         <Image
             width={75}
-            src="https://user-images.githubusercontent.com/8687350/151181334-93fd56c2-01e5-4d86-a953-9687254a096c.png"
+            src="https://user-images.githubusercontent.com/8687350/152641906-f2d5aed7-6f51-401d-9c7f-ab7b9ac434ec.PNG"
         />
-        Tenabo Systems©2021 Created by Tenabo Treq Ltd
+        <Divider>
+          <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://amigoscode.com/courses/full-stack-spring-boot-react/">
+            Tenabo Systems©2021 Created by Tenabo Treq Ltd
+          </a>
+        </Divider>
       </Footer>
     </Layout>
   </Layout>

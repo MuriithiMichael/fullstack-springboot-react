@@ -1,0 +1,16 @@
+ke\co\tenebo\fullstackspringbootreact\exception\NotFoundException.class
+ke\co\tenebo\fullstackspringbootreact\student\Gender.class
+ke\co\tenebo\fullstackspringbootreact\student\StudentRepository.class
+ke\co\tenebo\fullstackspringbootreact\student\StudentController.class
+ke\co\tenebo\fullstackspringbootreact\student\StudentDataAccessService.class
+ke\co\tenebo\fullstackspringbootreact\student\StudentCourse.class
+ke\co\tenebo\fullstackspringbootreact\exception\ApiException.class
+ke\co\tenebo\fullstackspringbootreact\exception\ApiRequestException.class
+ke\co\tenebo\fullstackspringbootreact\student\StudentService.class
+ke\co\tenebo\fullstackspringbootreact\datasource\Datasource.class
+ke\co\tenebo\fullstackspringbootreact\exception\ApiExceptionHandler.class
+ke\co\tenebo\fullstackspringbootreact\exception\BadRequestException.class
+ke\co\tenebo\fullstackspringbootreact\student\Course.class
+ke\co\tenebo\fullstackspringbootreact\EmailValidator.class
+ke\co\tenebo\fullstackspringbootreact\student\Student.class
+ke\co\tenebo\fullstackspringbootreact\FullstackSpringbootReactApplication.class
