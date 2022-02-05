@@ -241,7 +241,7 @@ function App() {
               rel="noopener noreferrer"
               target="_blank"
               href="https://amigoscode.com/courses/full-stack-spring-boot-react/">
-            TT Systems © 2022 All Rights Reserved
+            TT Systems © 2022 All Rights Reserved.
           </a>
         </Divider>
       </Footer>
