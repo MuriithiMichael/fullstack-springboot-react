@@ -241,7 +241,7 @@ function App() {
               rel="noopener noreferrer"
               target="_blank"
               href="https://amigoscode.com/courses/full-stack-spring-boot-react/">
-            Tenabo Systems©2021 Created by Tenabo Treq Ltd.
+            TT Systems © 2021
           </a>
         </Divider>
       </Footer>
