@@ -1,6 +1,3 @@
-server:
-  port: 5000
-
 app:
   datasource:
     jdbc-url: jdbc:postgresql://springreact.c3kmrahbmfms.eu-west-3.rds.amazonaws.com:5432/springreact
@@ -8,6 +5,18 @@ app:
     password: spb_R3act*10
     pool-size: 30
 
+server:
+  port: 5000
+  error:
+    include-message: always
+    include-binding-errors: always
+
 spring:
   profiles:
     active: @spring.profiles.active@
+  datasource:
+    url: jdbc:postgresql://springreact.c3kmrahbmfms.eu-west-3.rds.amazonaws.com:5432/springreact
+    username: tenebocode
+    password: spb_R3act*10
+    hikari:
+      maximum-pool-size: 30

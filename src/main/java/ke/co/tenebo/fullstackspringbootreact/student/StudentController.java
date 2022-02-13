@@ -1,9 +1,6 @@
 package ke.co.tenebo.fullstackspringbootreact.student;
 
-import ke.co.tenebo.fullstackspringbootreact.exception.ApiRequestException;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;

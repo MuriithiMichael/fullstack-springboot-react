@@ -19,14 +19,16 @@ public class StudentService {
     private final EmailValidator emailValidator;
     private final StudentRepository studentRepository;
 
-    List<Student> getAllStudents(){
+
+    public List<Student> getAllStudents(){
        //return studentDataAccessService.selectAllStudents();
         return studentRepository.findAll();
     }
 
-    void addStudent(Student student) {
+    public void addStudent(Student student) {
         //TODO : Validate Email
-        if(!emailValidator.test(student.getEmail())){
+        boolean isValid = emailValidator.test(student.getEmail());
+        if(!isValid){
             throw new ApiRequestException(student.getEmail() + " is not valid");
         }
         //TODO : Verify that email is not taken
@@ -39,13 +41,14 @@ public class StudentService {
         if(existsEmail){
             throw new BadRequestException("Email "+ student.getEmail() + " taken");
         }
-        addStudent(null, student);
+        studentRepository.save(student);
+        //addStudent(null, student);
     }
 
     void addStudent(UUID studentId, Student student) {
         UUID newStudentId = Optional.ofNullable(studentId).orElse(UUID.randomUUID());
-//        studentDataAccessService.insertStudent(newStudentId, student);
-//        student.setStudentId(newStudentId);
+        studentDataAccessService.insertStudent(newStudentId, student);
+        student.setStudentId(newStudentId);
         studentRepository.save(student);
     }
 

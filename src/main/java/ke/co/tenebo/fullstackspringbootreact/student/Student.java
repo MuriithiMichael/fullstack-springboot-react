@@ -1,6 +1,5 @@
 package ke.co.tenebo.fullstackspringbootreact.student;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 
