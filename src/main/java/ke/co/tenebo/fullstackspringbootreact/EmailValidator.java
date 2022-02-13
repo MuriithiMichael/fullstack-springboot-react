@@ -10,7 +10,7 @@ public class EmailValidator implements Predicate<String> {
 
     private static final Predicate<String> IS_EMAIL_VALID =
             Pattern.compile(
-                    "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$",
+                    "^(([^<>()[\\]\\\\.,;:\\s@\\\"]]+(\\.[^<>()[\\]\\\\.,;:\\s@\\\"]]+)*)|(\\\".+\\\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$",
                      Pattern.CASE_INSENSITIVE
             ).asPredicate();
 

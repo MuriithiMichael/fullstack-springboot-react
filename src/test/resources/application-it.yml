@@ -1,13 +1,4 @@
-app:
-  datasource:
-    jdbc-url: jdbc:postgresql://springreact.c3kmrahbmfms.eu-west-3.rds.amazonaws.com:5432/springreact
-    username: tenebocode
-    password: spb_R3act*10
-    pool-size: 30
-
 spring:
-  application:
-    name: Spring React Application
   jpa:
     hibernate:
       ddl-auto: update
@@ -18,7 +9,7 @@ spring:
         format_sql: true
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://aa12vci0azb96wt.c30mxocki8ma.af-south-1.rds.amazonaws.com:5432/springreact
+    url: jdbc:postgresql://localhost:5432/springreact
     username: postgres
     password: password
     hikari:
